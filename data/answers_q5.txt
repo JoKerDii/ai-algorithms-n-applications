@@ -1,0 +1,21 @@
+Among these main points, which points are the authors most confident about and why? Which points are the authors less confident about and why?
+
+Based on the provided article, the author appears to be most confident about the following points:
+
+1. **RLHF Process and Its Effectiveness**:
+   - The author extensively describes the Reinforcement Learning with Human Feedback (RLHF) process and provides detailed steps and figures from the InstructGPT paper. The consistent reference to established research papers and detailed explanation of RLHF stages demonstrate high confidence in this methodology.
+   - The author also presents evidence from graphs and charts that show the effectiveness of RLHF, suggesting that it is worth the effort due to the significant improvements it brings to LLM performance in terms of helpfulness and safety.
+
+2. **Comparison between ChatGPT and Llama 2**:
+   - The author confidently compares the RLHF process used in ChatGPT and Llama 2, highlighting the similarities and differences with annotated figures and detailed descriptions. The use of specific examples and the depth of analysis indicate a strong understanding and confidence in this comparison.
+
+Points the author is less confident about:
+
+1. **RLHF Alternatives**:
+   - While the author discusses several alternatives to RLHF, such as Constitutional AI, Hindsight Instruction Labeling, Direct Preference Optimization, and others, there is a sense of cautious optimism rather than outright confidence.
+   - The author notes that while these alternatives show promise and some have compelling results, there is still ongoing research, and it remains to be seen whether they can truly replace RLHF in practice. This caution is evident in statements like "Whether these alternatives will be worthwhile in practice remains to be seen" and the acknowledgment that there is no true competitor to large-scale models like Llama 2 that have been trained without RLHF.
+
+2. **RLAIF (Reinforcement Learning with AI Feedback)**:
+   - The author mentions the potential of RLAIF to make RLHF-based training more efficient and accessible but also points out that it remains to be seen how these models perform in qualitative studies focusing on safety and truthfulness. This indicates some uncertainty about the long-term viability and effectiveness of RLAIF compared to traditional RLHF.
+
+In summary, the author is most confident about the detailed processes and effectiveness of RLHF and the comparative analysis between ChatGPT and Llama 2. However, there is less confidence regarding the practical implementation and long-term effectiveness of RLHF alternatives, as these are still subjects of ongoing research and validation.

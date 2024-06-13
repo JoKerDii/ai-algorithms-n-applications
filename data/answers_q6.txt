@@ -1,0 +1,12 @@
+If there are suggestions proposed by the authors, what are the suggestions?
+
+The article does not explicitly list specific suggestions proposed by the authors. Instead, it provides a comprehensive overview of the RLHF process and its alternatives. The author, Sebastian Raschka, Ph.D., discusses various methods and recent research on optimizing LLMs, including RLHF and its alternatives. These alternatives are:
+
+1. **Constitutional AI**: A self-training mechanism based on human-provided rules.
+2. **The Wisdom of Hindsight Makes Language Models Better Instruction Followers**: A relabeling-based supervised approach for fine-tuning.
+3. **Direct Preference Optimization (DPO)**: Uses the cross-entropy loss for reward model fitting directly to fine-tune the LLM.
+4. **Contrastive Preference Learning (CPL)**: Uses a contrastive loss to simplify RLHF by eliminating reward model learning.
+5. **Reinforced Self-Training (ReST)**: Creates an improved dataset through a sampling approach and iteratively trains on higher-quality subsets.
+6. **RLAIF (Reinforced Learning from Human Feedback with AI Feedback)**: Uses AI-generated ratings for reward model training instead of human ratings.
+
+The final remarks suggest that while these alternatives show promise, their practical worth remains to be seen, and no true competitor to Llama 2 and Code Llama-scale models trained without RLHF has emerged yet. The author encourages readers to share their experiences with these methods or any additional promising approaches they may encounter.

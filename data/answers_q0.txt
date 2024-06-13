@@ -1,0 +1,27 @@
+What are the main points? Cite the sentence from the article that highlights each point.
+
+The main points of the article are as follows:
+
+1. **Introduction to RLHF and its Importance:**
+   - "RLHF is an integral part of the modern LLM training pipeline due to its ability to incorporate human preferences into the optimization landscape, which can improve the model's helpfulness and safety."
+   - "In this article, I will break down RLHF in a step-by-step manner to provide a reference for understanding its central idea and importance."
+
+2. **Canonical LLM Training Pipeline:**
+   - "Modern transformer-based LLMs, such as ChatGPT or Llama 2, undergo a 3-step training procedure: 1. Pretraining 2. Supervised finetuning 3. Alignment."
+   - "Note that this training pipeline is based on OpenAI's InstructGPT paper, which details the process for GPT-3."
+
+3. **Detailed Explanation of RLHF:**
+   - "The RLHF pipeline takes a pretrained model and finetunes it in a supervised fashion (step 2 in the previous section) and further aligns it with proximal policy optimization (step 3 in the previous section)."
+   - "For simplicity, we will look at the RLHF pipeline in three separate steps: RLHF Step 1: Supervised finetuning of the pretrained model RLHF Step 2: Creating a reward model RLHF Step 3: Finetuning via proximal policy optimization."
+
+4. **Comparison between ChatGPT and Llama 2's RLHF Approaches:**
+   - "Meta AI utilized RLHF in creating the Llama-2-chat models as well. Nevertheless, there are several distinctions between the two approaches, which I've highlighted in the annotated figure below."
+   - "Another distinction not depicted in the above-mentioned annotated figure relates to how model responses are ranked to generate the reward model."
+
+5. **Alternatives to RLHF:**
+   - "Now that we have discussed and defined the RLHF process, a pretty elaborate procedure, one might wonder whether it's even worth the trouble."
+   - "However, a lot of ongoing research focuses on developing more efficient alternatives. The most interesting approaches are summarized below."
+
+6. **Final Remarks on RLHF and its Alternatives:**
+   - "Whether these alternatives will be worthwhile in practice remains to be seen as there is currently no true competitor to Llama 2 and Code Llama-scale models that have been trained without RLHF."
+   - "Also, if you have tried any of these methods or stumbled upon additional promising approaches, I'd love to hear!"

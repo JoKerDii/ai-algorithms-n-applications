@@ -1,0 +1,42 @@
+Provide all citations at the end and summarize what each citation was used to support.
+
+**Citations:**
+
+1. **[OpenAI's InstructGPT paper](https://arxiv.org/abs/2203.02155)**
+   - This paper is the foundational source detailing the canonical LLM training pipeline, particularly the steps of pretraining, supervised finetuning, and alignment. It is referenced multiple times to explain the RLHF process and the improvements it brings to model performance.
+
+2. **[Meta AI's latest Llama 2](https://arxiv.org/abs/2307.09288)**
+   - This paper is used to compare the RLHF methods between ChatGPT and Llama 2, highlighting the distinctions and unique approaches taken by Meta AI in developing Llama 2, such as the use of multiple reward models and rejection sampling.
+
+3. **[Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1602.01783)**
+   - Cited to explain the policy gradient methods as an alternative to Q-learning, foundational to understanding the PPO methods used in RLHF.
+
+4. **[Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)**
+   - This paper presents the PPO algorithm that is more data-efficient and scalable, which is a core component in the RLHF fine-tuning process discussed.
+
+5. **[Fine-Tuning Language Models from Human Preferences](https://arxiv.org/abs/1909.08593)**
+   - This paper illustrates the PPO and reward learning concepts applied to pretrained language models, including the use of KL regularization, which is relevant to the RLHF procedure.
+
+6. **[Learning to Summarize from Human Feedback](https://arxiv.org/abs/2009.01325)**
+   - This paper introduces the popular RLHF three-step procedure that was later adopted in the InstructGPT paper, providing context to the RLHF process used in modern LLMs.
+
+7. **[Rejection sampling](https://arxiv.org/abs/2204.05862)**
+   - This method is utilized in Llama 2's approach to RLHF, where it is combined with PPO to enhance model performance by selecting samples with the highest reward scores.
+
+8. **[Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073)**
+   - This paper proposes a self-training mechanism based on rules provided by humans, serving as an alternative to RLHF by using reinforcement learning with AI feedback.
+
+9. **[The Wisdom of Hindsight Makes Language Models Better Instruction Followers](https://arxiv.org/abs/2302.05206)**
+   - This paper discusses a relabeling-based supervised approach for finetuning LLMs, showing it can outperform RLHF on specific tasks, offering a potential alternative to the RLHF procedure.
+
+10. **[Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290)**
+    - This paper proposes DPO as an alternative to RLHF with PPO, demonstrating that the cross-entropy loss for the reward model can be used directly for LLM finetuning.
+
+11. **[Contrastive Preference Learning: Learning from Human Feedback without RL](https://arxiv.org/abs/2310.13639)**
+    - This paper presents CPL, which simplifies RLHF by eliminating the need for reward model learning and using a supervised learning objective instead.
+
+12. **[Reinforced Self-Training (ReST) for Language Modeling](https://arxiv.org/abs/2308.08998)**
+    - This paper introduces ReST as an RLHF alternative, using a sampling approach to create improved datasets and iteratively training on higher-quality subsets.
+
+13. **[RLAIF: Scaling Reinforcement Learning from Human Feedback with AI Feedback](https://arxiv.org/abs/2309.00267)**
+    - This paper discusses the use of AI-generated feedback for RLHF, showing that AI feedback can be as effective as human feedback, potentially making RLHF training more efficient and accessible.
